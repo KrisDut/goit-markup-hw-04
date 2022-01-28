@@ -26,12 +26,12 @@ ul {
   display: flex;
   width: 1200px;
   align-items: center;
-  justify-content: flex-start;
+
   background-color: #ffffff;
 }
 
-#webstudio-nav {
-  width: 145px;
+.webstudio-nav {
+  width: 19.833%;
   height: 31px;
   font-family: Raleway;
   font-style: normal;
@@ -50,7 +50,7 @@ ul {
   color: #212121;
 }
 
-#agencja-nav {
+.agencja-nav {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -60,10 +60,10 @@ ul {
   text-decoration: none;
   color: #212121;
   cursor: pointer;
-  margin-right: 43px;
+  margin-right: 46px;
 }
 
-#portfolio-nav {
+.portfolio-nav {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -73,10 +73,10 @@ ul {
   text-decoration: none;
   color: #212121;
   cursor: pointer;
-  margin-right: 43px;
+  margin-right: 46px;
 }
 
-#kontakt-nav {
+.kontakt-nav {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -86,10 +86,14 @@ ul {
   text-decoration: none;
   color: #212121;
   cursor: pointer;
-  margin-right: 371px;
+  margin-right: 345px;
 }
 
-#mail-nav {
+.icon-mail-nav {
+  margin-right: 10px;
+}
+
+.mail-nav {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -99,10 +103,15 @@ ul {
   text-decoration: none;
   color: #212121;
   cursor: pointer;
-  margin-right: 50px;
+  align-items: center;
+  margin-right: 30px;
 }
 
-#tel-nav {
+.icon-phone-nav {
+  margin-right: 10px;
+}
+
+.tel-nav {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -112,14 +121,29 @@ ul {
   text-decoration: none;
   color: #757575;
   cursor: pointer;
+  align-items: center;
 }
 
-#agencja-nav:hover,
-#portfolio-nav:hover,
-#kontakt-nav:hover,
-#mail-nav:hover,
-#tel-nav:hover {
+.agencja-nav:hover,
+.portfolio-nav:hover,
+.kontakt-nav:hover,
+.mail-nav:hover,
+.tel-nav:hover {
   color: #2196f3;
+}
+
+.mail-nav:hover,
+.mail-nav:focus,
+.tel-nav:hover,
+.tel-nav:focus {
+  color: #2196f3;
+}
+
+.mail-nav:hover .icon-mail-nav,
+.mail-nav:focus .icon-mail-nav,
+.tel-nav:hover .icon-phone-nav,
+.tel-nav:focus .icon-phone-nav {
+  fill: #2196f3;
 }
 
 .section-1-index {
