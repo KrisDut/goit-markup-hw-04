@@ -148,7 +148,7 @@ ul {
   height: 600px;
   top: 80px;
   max-width: 1600px;
-  background-image: url("./images/backgound.png");
+  background-image: url("./images/background.png");
   margin: 0 auto;
   background-size: contain;
   background-repeat: no-repeat;
@@ -204,9 +204,23 @@ ul {
   color: #ffffff;
 }
 
+.rect {
+  padding-top: 94px;
+}
+
+.rect-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-rect {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
 .section-2-index {
   background-color: white;
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
