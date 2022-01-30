@@ -378,6 +378,65 @@ ul {
   fill: #ffffff;
 }
 
+.section-5-index {
+  display: flex;
+  width: 100%;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.h2-section-5-index {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 166%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-left: auto;
+  margin-right: auto;
+  color: #212121;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.borderbox-section-5 {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.list-section-5-index {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.borderbox-section-5:hover,
+.borderbox-section-5:focus {
+  border-color: #2196f3;
+}
+
+.borderbox-section-5:hover .icon-list-section-5-index,
+.borderbox-section-5:focus .icon-list-section-5-index {
+  color: #2196f3;
+}
+
+.borderbox-section-5:hover .icon-list-section-5-index .icon-section-5,
+.borderbox-section-5:focus .icon-list-section-5-index .icon-section-5 {
+  fill: #2196f3;
+}
+
 .footer {
   height: 252px;
   background: #2f303a;
@@ -396,6 +455,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  margin: 0;
 }
 
 .webstudio-footer {
