@@ -619,9 +619,9 @@ ul {
   justify-content: space-between;
   align-content: space-between;
   padding-top: 0px;
-  padding-bottom: 94px;
+  padding-bottom: 86px;
   padding-left: 0px;
-  background-color: tomato;
+  margin-top: 10px;
 }
 
 figure {
@@ -635,6 +635,7 @@ figure {
   cursor: pointer;
   background: #ffffff;
   border: 1px solid #eeeeee;
+  margin-bottom: 8px;
 }
 
 a {
