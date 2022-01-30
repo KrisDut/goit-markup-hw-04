@@ -27,9 +27,12 @@ ul {
   width: 1200px;
   align-items: center;
   background-color: #ffffff;
+  padding-left: 0px;
 }
 
 .webstudio-nav {
+  display: flex;
+  align-content: center;
   height: 31px;
   font-family: Raleway;
   font-style: normal;
@@ -49,6 +52,8 @@ ul {
 }
 
 .agencja-nav {
+  display: flex;
+  align-content: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -62,6 +67,8 @@ ul {
 }
 
 .portfolio-nav {
+  display: flex;
+  align-content: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -75,6 +82,8 @@ ul {
 }
 
 .kontakt-nav {
+  display: flex;
+  align-content: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -92,6 +101,8 @@ ul {
 }
 
 .mail-nav {
+  display: flex;
+  align-content: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -109,7 +120,15 @@ ul {
   margin-right: 10px;
 }
 
+.m-n {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
 .tel-nav {
+  display: flex;
+  align-content: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -128,20 +147,6 @@ ul {
 .mail-nav:hover,
 .tel-nav:hover {
   color: #2196f3;
-}
-
-.mail-nav:hover,
-.mail-nav:focus,
-.tel-nav:hover,
-.tel-nav:focus {
-  color: #2196f3;
-}
-
-.mail-nav:hover .icon-mail-nav,
-.mail-nav:focus .icon-mail-nav,
-.tel-nav:hover .icon-phone-nav,
-.tel-nav:focus .icon-phone-nav {
-  fill: #2196f3;
 }
 
 .section-1-index {
@@ -212,6 +217,7 @@ ul {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding: 0px;
 }
 
 .icon-rect {
@@ -228,9 +234,11 @@ ul {
   width: 1200px;
   display: flex;
   justify-content: space-between;
+  padding: 0px;
 }
 
 .lorem-index {
+  width: 270px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -270,7 +278,7 @@ ul {
 .img-index {
   width: 1200px;
   display: flex;
-
+  padding: 0px;
   justify-content: space-between;
 }
 
@@ -295,8 +303,9 @@ ul {
 
 .section-4-list {
   display: flex;
-  justify-content: space-between;
-  margin: 0;
+  flex-direction: row;
+
+  padding: 0;
 }
 
 .image-index {
@@ -312,7 +321,7 @@ ul {
 }
 
 .image-index:nth-child(4) {
-  margin: 0;
+  margin-right: 0px;
 }
 
 .john {
@@ -418,6 +427,7 @@ ul {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding: 0px;
   padding-top: 50px;
   margin: 0;
 }
@@ -438,8 +448,10 @@ ul {
 }
 
 .footer {
+  display: flex;
   height: 252px;
   background: #2f303a;
+  margin-left: -70px;
 }
 
 .container {
@@ -453,17 +465,18 @@ ul {
 .footer-block {
   display: flex;
   flex-direction: row;
+  padding: 0px;
 }
 
 .footer-list-1 {
   width: 285px;
   height: 190px;
   display: flex;
+  padding: 0px;
   padding-top: 60px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin: 0;
 }
 
 .webstudio-footer {
@@ -548,7 +561,6 @@ ul {
   height: 44px;
   border-radius: 50%;
   cursor: pointer;
-  pointer-events: ;
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -566,6 +578,7 @@ ul {
   display: flex;
   justify-content: center;
   padding-top: 94px;
+  padding-left: 0px;
 }
 
 .button-portfolio {
@@ -604,8 +617,11 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 20px;
+  align-content: space-between;
+  padding-top: 0px;
   padding-bottom: 94px;
+  padding-left: 0px;
+  background-color: tomato;
 }
 
 figure {
