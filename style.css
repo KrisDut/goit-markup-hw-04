@@ -450,7 +450,15 @@ ul {
   flex-wrap: wrap;
 }
 
-.footer-items {
+.footer-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-list-1 {
+  width: 285px;
+  height: 190px;
+  display: flex;
   padding-top: 60px;
   display: flex;
   flex-wrap: wrap;
@@ -501,6 +509,59 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-list-2 {
+  display: flex;
+  width: 206px;
+  padding-top: 75px;
+  padding-left: 72px;
+  padding-bottom: 10px;
+}
+
+.h2-footer {
+  width: 113px;
+  height: 16px;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 114%;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.footer-platforms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 0px;
+  padding-left: 70px;
+}
+
+.circle-footer {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  pointer-events: ;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.circle-footer:hover,
+.circle-footer:focus {
+  background-color: #2196f3;
+}
+
+.circle-footer:hover .icon-footer,
+.circle-footer:focus .icon-footer {
+  fill: #ffffff;
+}
+
 .button-items {
   display: flex;
   justify-content: center;
@@ -512,13 +573,17 @@ ul {
   height: 38px;
   cursor: pointer;
   background: #f5f4fa;
+  border: 0;
   border-radius: 4px;
   margin-left: 4px;
   margin-right: 4px;
 }
 
-.button-portfolio:hover {
+.button-portfolio:hover,
+.button-portfolio:focus {
   background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 #b {
@@ -551,35 +616,44 @@ figure {
 .image-portfolio {
   width: 370px;
   height: 404px;
-
+  cursor: pointer;
   background: #ffffff;
   border: 1px solid #eeeeee;
-  box-sizing: border-box;
 }
 
-#fcaption {
+a {
+  text-decoration: none;
+}
+
+.fcaption {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 200%;
   /* identical to box height, or 200% */
+  margin: 0;
   margin-left: 20px;
   margin-top: 20px;
   letter-spacing: 0.06em;
-
   color: #212121;
 }
 
-#funder {
+.funder {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 187%;
   /* identical to box height, or 187% */
+  margin: 0px;
   margin-left: 20px;
   letter-spacing: 0.03em;
-
   color: #757575;
+}
+
+.image-portfolio:hover,
+.image-portfolio:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
