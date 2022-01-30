@@ -275,8 +275,8 @@ ul {
 }
 
 .section-4-index {
-  height: 648px;
   margin-top: 94px;
+  padding-bottom: 94px;
   background: #f5f4fa;
 }
 
@@ -296,11 +296,12 @@ ul {
 .section-4-list {
   display: flex;
   justify-content: space-between;
+  margin: 0;
 }
 
 .image-index {
   width: 270px;
-  height: 368px;
+  height: 428px;
   margin-right: 30px;
   background: #ffffff;
   /* material shadow v1 */
@@ -341,6 +342,40 @@ ul {
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+
+.platforms {
+  width: 206px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.circle-section-4 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.top-platform {
+  display: flex;
+  justify-content: center;
+}
+
+.circle-section-4:hover,
+.circle-section-4:focus {
+  background-color: #2196f3;
+}
+
+.circle-section-4:hover .icon-platforms,
+.circle-section-4:focus .icon-platforms {
+  fill: #ffffff;
 }
 
 .footer {
